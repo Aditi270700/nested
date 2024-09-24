@@ -20,22 +20,22 @@ cout << "select 40 for subtraction" << "\n";
 cin >> c;
 switch (c)
 {
-    cash10:
+    case 10:
     {
 cout << n1 + n2;
 break;
     }
-    cash20:
+    case 20:
     {
 cout << n1 * n2;
 break;
     }
-    cash30:
+    case 30:
     {
 cout << n1 / n2;
 break;
     }
-    cash40:
+    case 40:
     {
 cout << n1 - n2;
 break;
