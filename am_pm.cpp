@@ -8,19 +8,19 @@ cout << "enter minute (0-59)" <<"\n";
 cin >>m;
 switch(h/12)
 {
-    case 0:
-    {
+case 0:
+{
 cout << "hour : " <<h <<":" <<m << "a.m" <<"\n";
 break;
-    }
+}
 case 1:
 {
-int k = (h-12) ==0?0:h;
+int k = (h-12)==0?0:h;
 if(k==0){
 cout << "00:00" <<"a.m" <<"\n";
 }
 else {
-    cout <<k-12 <<":"<<m <<"p.m"<<"\n";
+    cout <<k-12 <<":"<< m <<"p.m"<<"\n";
 }
 break;
 }
