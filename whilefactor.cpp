@@ -7,10 +7,10 @@ cin >> a;
 k = a;
 while(k>=1)
 {
-    if(a%k==0){
-        c++;
-    }
-    k--;
+if(a%k==0){
+c++;
+}
+k--;
 }
 cout << "factor = " << c;
 }

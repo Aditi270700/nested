@@ -16,6 +16,6 @@ if(c==a){
 cout << "perfect no";
 }
 else{
-    cout << "not perfect no";
+cout << "not perfect no";
 }
 }
